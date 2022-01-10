@@ -22,7 +22,7 @@ class ProjetPortfolioController extends AbstractController
      */
     public function CV(): Response
     {
-        return $this->render('projet_portfolio/CV.html.twig', [
+        return $this->render('cv.html.twig', [
             'controller_name' => 'ProjetPortfolioController',
         ]);
     }

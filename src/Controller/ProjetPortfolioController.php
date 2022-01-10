@@ -17,4 +17,13 @@ class ProjetPortfolioController extends AbstractController
             'controller_name' => 'ProjetPortfolioController',
         ]);
     }
+     /**
+     * @Route("/CV", name="CV")
+     */
+    public function CV(): Response
+    {
+        return $this->render('projet_portfolio/CV.html.twig', [
+            'controller_name' => 'ProjetPortfolioController',
+        ]);
+    }
 }
